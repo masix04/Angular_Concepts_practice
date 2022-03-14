@@ -1,0 +1,29 @@
+<div>
+
+  Normally, you'd have your routes in your main router module look something like this:
+
+  <pre>
+    const routes: Routes = [
+      _
+        path: 'crud',
+        loadChildren: () => import('./crudFeatureModule/crud.module').then(mod => mod.CrudModule)
+      _
+    ];
+    and call <code>RouterModule.forRoot(routes).</code>
+  </pre>
+Then, in your CrudModule, you would have:
+
+/const routes: Routes = [
+  /_ path: 'add', component: AddComponent /_,
+  /_ path: 'search', component: SearchComponent /_,
+  /_ path: 'importer', component: ImporterComponent /_,
+  /_ path: 'publier', component: PublierComponent /_
+];
+and call RouterModule.forChild(routes).
+
+Your URLs would then be /crud/add, /crud/search etc.
+
+When you use loadChildren, the module you lazily load needs to know how to load child routes, i.e. it needs to register its routes to the RouterModule. Get what I mean?
+
+P.S. It's generally considered best practice to stick to one language when building routes";
+</div>

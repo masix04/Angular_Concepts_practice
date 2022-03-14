@@ -1,0 +1,55 @@
+pre {
+  margin-bottom: 1em;
+  padding: 12px;
+  width: auto;
+  max-height: 600px;
+  overflow: auto;
+  font-family: var(--ff-mono);
+  font-size: 13px;
+  background-color: var(--black-050);
+  border-radius: 3px;
+}
+body *, body *:before, body *:after {
+  box-sizing: inherit;
+}
+.post-layout--right {
+  padding-right: 16px;
+  grid-column: 2;
+  width: auto;
+  min-width: 0;
+}
+
+.post-layout--right .s-prose, .post-layout--right .comments {
+  width: 100%;
+}
+
+.s-prose, .comment-copy, .question-status, .excerpt {
+  font-family: var(--theme-question-body-font-family);
+}
+.s-prose {
+  --s-prose-line-height: 1.5;
+  --s-prose-spacing: 1.1em;
+  --s-prose-spacing-condensed: calc(var(--s-prose-spacing) / 2);
+  font-size: 15px;
+  line-height: var(--s-prose-line-height);
+  word-wrap: break-word;
+}
+
+.s-prose p {
+  margin-bottom: var(--s-prose-spacing);
+}
+code[class*="language-"], pre.s-code-block>code {
+  font-family: inherit;
+}
+
+.s-prose code {
+  font-size: 13px;
+  font-family: var(--ff-mono);
+}
+pre code {
+  white-space: inherit;
+  padding: 0;
+}
+pre code {
+  background-color: transparent;
+}

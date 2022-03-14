@@ -1,0 +1,26 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+ul {
+  display: flex;
+  margin-left:150px;
+}
+ul li {
+  width:200px;
+  background-color: rgb(237, 241, 241);
+  margin-right:5px;
+}
+ul li a:hover {
+  color:red;
+  transition: 0.3s;
+}
+.head_body_separator {
+  width:80%; height: 5px;
+  background-color: rgb(204, 204, 207);
+  border-radius: 5px;
+  text-align: left;
+}
