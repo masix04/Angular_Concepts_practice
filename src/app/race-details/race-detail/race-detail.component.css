@@ -1,0 +1,13 @@
+div {
+  background-color: black;
+  height:70px;
+  width:80%;
+  color:white;
+  margin-left:200px;
+
+}
+h2 {
+  text-align: left;
+  padding: 20px 0 0 10px;
+  font-size: 20px;
+}
