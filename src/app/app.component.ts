@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'input-output-example';
+  title = 'Input-Output-example';
+  purpose = "Transfer Money to Child's Bank Account By Ask from Parent";
 }

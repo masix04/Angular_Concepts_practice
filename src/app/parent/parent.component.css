@@ -1,0 +1,60 @@
+.body-container {
+  width:95%;
+  /* margin: 100px 30px; */
+  /* top: 100px; OR */
+  top: 16%;
+  left: 35px;
+  /* margin-left:auto;
+  margin-right:auto; */
+  border: black 2px solid;
+  position: absolute;
+  padding:10px 5px;
+  /* padding-left: ; */
+}
+.child-containedd {
+  width:49%;
+  float:left;
+  /* border:1px black solid; */
+}
+.parent-child-separator {
+  width: 0.1%;
+  height: 486px;
+  background-color: rgb(2, 2, 2);
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.parent-container {
+  width:49%;
+  float: left;
+  border:1px black solid;
+  height: 500px;
+}
+.parent-container h3 {
+  background-color: rgb(117, 119, 121);
+  text-align: center;
+  margin-top: 0;
+  padding: 7.5px 0;
+}
+.parent-container .parent-chat-box {
+  width: 40%;
+  border:1px solid rgb(102, 102, 102);
+  padding:5px;
+  margin-left:5px;
+}
+textarea {
+  width:80%;
+  font-size: 16px;
+}
+.parent-send-btn {
+  border: none;
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  position: absolute;
+  cursor: pointer;
+  background-color: #6f7575;
+}
+.parent-send-btn img {
+  height: 21px;
+}
